@@ -3,7 +3,7 @@ import 'package:istory/utils/colors.dart';
 import 'package:istory/utils/responsive.dart';
 
 class Load extends StatefulWidget {
-  final double value;
+  final double? value;
 
   Load(this.value);
 
