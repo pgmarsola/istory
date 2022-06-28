@@ -1,0 +1,44 @@
+[
+    {
+      "name": "Pablo 'Diablo' Sanchez",
+      "description": "Condenado por tráfico de drogas. Ex integrante da gangue 'La Muerte'. Suspeito de três assassinatos a sangue frio em nome do líder da gangue, este ainda não foi identificado.",
+      "penalty": "15 anos",
+      "image": "assets/pablo.png"
+    },
+    {
+      "name": "Scott Newman",
+      "description": "Condenado por lavagem de dinheiro. Suspeito de tráfico internacional de drogas por meio de sua boate, mas sem provas.",
+      "penalty": "5 anos",
+      "image": "assets/scott.png"
+    },
+    {
+      "name": "Nico 'Doctor' Temp",
+      "description": "Condenado após ter sido pego em uma ação da policía para fechar os laboratórios de metanfetamína na região. Culpado por alterar a droga e levar a morte vários jovens da cidade.",
+      "penalty": "12 anos",
+      "image": "assets/nico.png"
+    },
+    {
+      "name": "Leonard Casper",
+      "description": "Condenado por digirir alcoolizado e por agressão à um policial durante uma blitz. Irmão gêmeo de Nico. Viciado em drogas.",
+      "penalty": "7 anos",
+      "image": "assets/leonard.png"
+    },
+    {
+      "name": "Isiah Jordan",
+      "description": "Condenado após assalto a mão armada à um posto de gasolina, foi identificado pelo atendente. Arma do crime não localizada.",
+      "penalty": "5 anos",
+      "image": "assets/isiah.png"
+    },
+    {
+      "name": "Bruce Green",
+      "description": "Condenado por agressão ao dono de um bar da cidade, o homem está em coma. Ex militar dispensado com honras, atirador de elite.",
+      "penalty": "15 anos",
+      "image": "assets/bruce.png"
+    },
+    {
+      "name": "Dan George III",
+      "description": "Agente corrupto e altamente agressivo. Seguiu os passos do avô e o pai se tornando agente na penitenciária privada de Albuquerque, Novo México.",
+      "penalty": "Agente Penitenciário",
+      "image": "assets/dan.png"
+    }
+  ]
