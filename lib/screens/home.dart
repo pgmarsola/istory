@@ -58,24 +58,26 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: const Color(0xFFB40C02),
-        body: SingleChildScrollView(
-            child: Center(child: Observer(builder: (context) {
-          if (_characterController!.load) {
-            return Load(_loadController!.progress);
-          } else {
-            if (_characterController!.characters != null &&
-                _characterController!.characters!.isNotEmpty) {
-              return Observer(
-                  builder: (_) =>
-                      _list(_characterController!.characters, context));
-            } else {
-              return Column(
-                children: [
-                  const Text("Não foi possivel carregar dados em tela")
-                ],
-              );
-            }
-          }
-        }))));
+        body: Padding(
+            padding: EdgeInsets.only(top: responsive(context) * 5),
+            child: SingleChildScrollView(
+                child: Center(child: Observer(builder: (context) {
+              if (_characterController!.load) {
+                return Load(_loadController!.progress);
+              } else {
+                if (_characterController!.characters != null &&
+                    _characterController!.characters!.isNotEmpty) {
+                  return Observer(
+                      builder: (_) =>
+                          _list(_characterController!.characters, context));
+                } else {
+                  return Column(
+                    children: [
+                      const Text("Não foi possivel carregar dados em tela")
+                    ],
+                  );
+                }
+              }
+            })))));
   }
 }

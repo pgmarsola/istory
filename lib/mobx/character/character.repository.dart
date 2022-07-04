@@ -2,7 +2,6 @@ import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'package:istory/mobx/character/character.repository.interface.dart';
 import 'package:istory/models/character.model.dart';
-import 'package:istory/models/data.model.dart';
 
 class CharacterRepository extends ICharacterRepository {
   @override
